@@ -1,0 +1,67 @@
+h3 {
+  font-size: 15pt;
+  padding: 20pt;
+  padding-top: 50pt;
+  margin-left: 50pt;
+}
+
+p {
+  margin-left: 10pt;
+  margin-right: 10pt;
+}
+
+.text p {
+  margin-left: 70pt;
+}
+
+.box label {
+  display: block;
+  margin: 12pt;
+  font-size: 15pt;
+}
+
+h2 {
+  margin-left: 10pt;
+  font-weight: bold;
+  margin-bottom: 5pt;
+}
+
+.flex {
+  display: flex;
+}
+
+.box {
+  background-color: white;
+  border: 4pt solid #60B3BD;
+  border-radius: 4px;
+  margin: 40pt;
+  width: 150%;
+  padding-bottom: 30pt;
+}
+
+@media (max-width: 992px) { 
+  .text p, .box {
+    margin-left: 15pt;
+    margin-right: 10pt;
+    margin-bottom: 10pt;
+  }
+
+  .box label {
+    margin-left: 5pt;
+    margin-right: 5pt;
+  }
+
+  h3 {
+    margin-left: 0pt;
+    padding-top: 20pt;
+  }
+
+  .box {
+    width: 700%;
+    height: 100%;
+    padding-bottom: 20pt;
+    margin-top: 15pt;
+    margin-left: 5pt;
+  }
+
+}

@@ -1,0 +1,40 @@
+h4 {
+  font-size: 17pt;
+  padding: 15pt;
+  padding-top: 45pt;
+  padding-left: 50pt;
+}
+
+h3 {
+  font-size: 15pt;
+  padding: 20pt;
+  padding-left: 50pt;
+  padding-right: 50pt;
+}
+
+p {
+  padding-left: 50pt;
+  padding-right: 50pt;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+@media (max-width: 992px) {
+  h4 {
+    padding-top: 25pt;
+    padding-left: 30pt;
+  }
+
+  p, h3 {
+    padding-left: 30pt;
+    padding-right: 30pt;
+  }
+}
+

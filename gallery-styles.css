@@ -1,0 +1,135 @@
+.grid {
+  display: grid;
+  grid-template-areas: 
+  "pic1   pic2   pic3   pic4"
+  "pic5   pic6   pic7   pic8"
+  "pic9   pic10  pic11  pic12"
+  "pic13  pic14  pic15  pic16";
+  height: 200vh;
+  width: 100vw;
+  padding-left: 50pt;
+  padding-right: 50pt;
+}
+
+h3 {
+  margin: 20pt;
+  font-size: 15pt;
+  margin-left: 60pt;
+  margin-top: 45pt;
+}
+
+div div {
+  margin: 10pt;
+  object-fit: cover;
+  background-size: cover;
+  object-position: top;
+  max-height: 100%;
+  max-width: 100%;
+  border: 4pt solid #60B3BD;
+  border-radius: 4px;
+  box-shadow: 0px 5px 5px black;
+}
+
+.pic1 {
+  grid-area: pic1;
+  background-image: url("./hairPics/hair.webp");
+}
+
+.pic2 {
+  grid-area: pic2;
+  background-image: url("./hairPics/hair1.jpeg");
+}
+
+.pic3 {
+  grid-area: pic3;
+  background-image: url("./hairPics/hair2.jpeg");
+}
+
+.pic4 {
+  grid-area: pic4;
+  background-image: url("./hairPics/hair3.webp");
+}
+
+.pic5 {
+  grid-area: pic5;
+  background-image: url("./hairPics/hair4.jpeg");
+}
+
+.pic6 {
+  grid-area: pic6;
+  background-image: url("./hairPics/hair5.jpeg");
+}
+
+.pic7 {
+  grid-area: pic7;
+  background-image: url("./hairPics/hair6.jpeg");
+}
+
+.pic8 {
+  grid-area: pic8;
+  background-image: url("./hairPics/hair7.webp");
+}
+
+.pic9 {
+  grid-area: pic9;
+  background-image: url("./hairPics/hair8.webp");
+}
+
+.pic10 {
+  grid-area: pic10;
+  background-image: url("./hairPics/hair9.jpeg");
+}
+
+.pic11 {
+  grid-area: pic11;
+  background-image: url("./hairPics/hair10.jpeg");
+}
+
+.pic12 {
+  grid-area: pic12;
+  background-image: url("./hairPics/hair11.jpeg");
+}
+
+.pic13 {
+  grid-area: pic13;
+  background-image: url("./hairPics/hair12.jpeg");
+}
+
+.pic14 {
+  grid-area: pic14;
+  background-image: url("./hairPics/hair13.jpeg");
+}
+
+.pic15 {
+  grid-area: pic15;
+  background-image: url("./hairPics/hair14.webp");
+}
+
+.pic16 {
+  grid-area: pic16;
+  background-image: url("./hairPics/hair15.webp");
+}
+
+@media (max-width: 992px) { 
+  .grid {
+    grid-template-areas: 
+    "pic1   pic2"
+    "pic3   pic4"
+    "pic5   pic6"
+    "pic7   pic8"
+    "pic9   pic10"
+    "pic11  pic12"
+    "pic13  pic14"
+    "pic15  pic16";
+    height: 150vh;
+    width: 100vw;
+    padding-left: 20pt;
+    padding-right: 20pt;
+  }
+
+  h3 {
+    margin: 30pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+  }
+}
